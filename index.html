@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Icono que se muestra en pantalla-->
+    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon">
+
+    <!--wow animaciones-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>ESCBA - Leones</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="index.html"><img src="assets/logoBlanco.png" alt="LOGO" class="logo"></a>
+        
+        <nav class="navegacion">
+                <!--MENU DE NAVEGACION-->
+            <ul class="navegacion__ul">
+                <li class="navegacion__ul__li"> <a class="navegacion__a" href="index.html">Inicio</a> </li>
+                <li class="navegacion__ul__li"> <a class="navegacion__a" href="noticias.html">Últimas Noticias</a> </li>
+                <li class="navegacion__ul__li"><a class="navegacion__a" href="institucion.html">Nuestra Institución</a></li>
+                <li class="navegacion__ul__li"><a class="navegacion__a" href="colaboradores.html">Colaboradores</a></li>
+                <li class="navegacion__ul__li"><a class="navegacion__a" href="contacto.html">Contacto</a></li>
+            
+
+                <!--REDES SOCIALES Y PAGINA BUSCAR-->
+                <a class="navegacion__redes__lupa" href="#" ><img src="assets/buscar.png" alt="Buscar" width="24px"></a>
+                <a class="navegacion__redes" href="https://www.facebook.com/escba.leones" target="_blank"><img src="assets/facebook.png" alt="Facebook" width="24px"></a>
+                <a class="navegacion__redes" href="https://www.instagram.com/escbaleones/?hl=es" target="_blank"><img src="assets/instagram.png" alt="Facebook" width="24px"></a>
+            </ul>
+
+            <!--LOGO RESPONSIVE-->
+            <div class="menu-responsive">
+                <img src="assets/menu.png" width="32px" alt="Menu">
+                <img class="" src="assets/logoAzul.png" alt="Logo ESCBA" width="100px">
+                <a class="lupares" href="#" ><img src="assets/buscar.png" alt="Buscar" width="24px"></a>               
+            </div>
+        </nav>
+</header>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <main class="main">
+        <section class="noticiaPrincipal">
+            <div class="noticiaPri">
+                <!--AL HACER CLICK EN LA IMAGEN NOS LLEVA AL DETALLE NOTICIA-->
+                <a class="notPriA" href="detalleNoticia.html"><img src="assets/imgNoticias/profesor.jpg" alt="Título Noticia" class="notPriImg"></a>
+                <!--AL HACER CLICK EN EL TITULO NOS LLEVA AL DETALLE NOTICIA-->
+                <a class="notPriA" href="detalleNoticia.html"><h1 class="notPriH1">Título Noticia</h1></a>
+                <p class="notPriP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem qui omnis velit, amet ad iure commodi corporis aut doloribus, voluptatibus deleniti at iste animi? Impedit dolor ad dignissimos facere?</p>
+            </div>
+            <!--div donde va la noticia secundaria-->
+            <div class="main__noticiaSecundaria">
+                <a class="main__noticiaSecundaria__a" href="detalleNoticia.html"><img src="assets/imgNoticias/imagen1.jpg" alt="Título Noticia" class="main__noticiaSecundaria__img"></a>
+                <!--AL HACER CLICK EN EL TITULO NOS LLEVA AL DETALLE NOTICIA-->
+                <a class="main__noticiaSecundaria__a" href="detalleNoticia.html"><h1 class="main__noticiaSecundaria__h1">Título NOTICIA  Secundaria</h1></a> 
+            </div>
+        </section>
+
+        <section class="noticiasSec">
+            <!--div en los cuales van 2 noticias-->
+            <div class="notXDos">
+                <a class="notXDos__a" href="detalleNoticia.html"><img class="notXDos__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                <a class="notXDos__a" href="detalleNoticia.html"><h1 class="notXDos__h1">Título Noticia</h1></a> 
+                <a class="notXDos__a" href="detalleNoticia.html"><img class="notXDos__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                <a class="notXDos__a" href="detalleNoticia.html"><h1 class="notXDos__h1">Título Noticia</h1></a> 
+            </div>
+        </section>
+    <!--EN EN ASIDE VAN 2 O 3 IMAGENES DE COLABORADORES DONDE AL HACER CLICK LLEVA AL SITIO DEL COLABORADOR EN CASO DE TENERLO -->
+    <aside class="main__aside">
+        <a href="colaboradores.html"><img src="assets/imgNoticias/imagen4.JPG" alt="Título Noticia" class="main__aside__img"></a> 
+        <a href="colaboradores.html"><img src="assets/imgNoticias/imagen4.JPG" alt="Título Noticia" class="main__aside__img"></a> 
+    </aside>
+    </main>
+            <!--SECCION NOTICIAS GENERALES-->
+            <section class="generales">
+            <!--SECCION PARA RESPONSIVE-->
+                <div class="divResponsive">
+                    <div class="noticiasGenerales__articulos ">
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                    <div class="noticiasGenerales__articulos">
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                </div>
+
+                <div class="noticiasGenerales notGenResponsive">
+                    <div class="noticiasGenerales__articulos ">
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                    <div class="noticiasGenerales__articulos">
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                    <div class="noticiasGenerales__articulos">    
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                    <div class="noticiasGenerales__articulos oculta">    
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><img class="noticiasGenerales__img" src="assets/imgNoticias/imagen3.jpg" alt="Título Noticia"></a>
+                        <a class="noticiasGenerales__a" href="detalleNoticia.html"><h1 class="noticiasGenerales__h1">Título Noticia</h1></a> 
+                    </div>
+                </div>
+                </section>
+                <footer class="pie">
+                    <img class="pie__img" id="imgFoot" src="assets/logoAzul.png" alt="" width="100px">
+                    <div class="redesPie"> 
+                    <h3 class="pie__h3">Seguinos en</h3>
+                    <ul class="pie__ul">
+                        <li class="pie__ul_li"><a class="pie__a" href="https://www.facebook.com/escba.leones" target="_blank">Facebook</a></li>
+                        <li class="pie__ul_li"><a class="pie__a" href="https://www.instagram.com/escbaleones/?hl=es" target="_blank">instagram</a></li>
+                    </ul>
+                    </div>
+                
+                <div class="menuPie">
+                    <ul class="listaMenu">
+                        <li class="pie__lista__menu"> <a  class="pie__a__menu" href="index.html">Inicio</a> </li>
+                        <li class="pie__lista__menu"> <a class="pie__a__menu"  href="noticias.html">Últimas Noticias</a> </li>
+                        <li class="pie__lista__menu"><a class="pie__a__menu"  href="institucion.html">Nuestra Institución</a></li>
+                        <li class="pie__lista__menu"><a class="pie__a__menu"  href="colaboradores.html">Colaboradores</a></li>
+                        <li class="pie__lista__menu"><a class="pie__a__menu"  href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                    <p class="pie__copy">&copy; Copyrigth 2022</p> <br>
+                </footer>
+
+
+        </body>
+</html>

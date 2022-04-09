@@ -121,6 +121,8 @@ body{
     font-weight: bold;
     color: white;
     font-size: 32px;
+    animation-name: headShake;
+    animation-duration: 2s;
 }
 
 .notPriP{
@@ -378,7 +380,12 @@ body{
     font-size: 30px;
     display: grid;
     animation-name: bounceIn;
-    animation-duration: 4s;
+    animation-duration: 2s;
+}
+
+.noticiasH2:hover{
+    animation: flash; 
+    animation-duration: 2s; 
 }
 
 .noticiasP{
@@ -389,11 +396,19 @@ body{
     font-size: 26px;
 }
 
+.noticiasP:hover{
+    animation: shakeX; 
+    animation-duration: 0.5s; 
+}
 
 .noticiasImg{  
     width: 400px;
     height: 200px;
     margin-left: 40px;
+}
+
+.noticiasImg:hover{
+    filter: grayscale(80%);
 }
 
 /*ESTILOS ASIDE*/
@@ -529,6 +544,8 @@ body{
 
 .mapaCont{
     margin-right: 30px;
+    animation: jello;
+    animation-duration: 2s; 
 }
 
 
@@ -623,6 +640,8 @@ body{
     color: white;
     margin-left: 15px;
     display: block;
+    animation: backInLeft; 
+    animation-duration: 0.5s; 
 }
 
 .detP{
